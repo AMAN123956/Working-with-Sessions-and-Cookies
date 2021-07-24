@@ -1,8 +1,8 @@
 const router = require("express").Router();
 
-const {landingController} = require('../controllers/general/landing')
+const {landing} = require('../controllers/general/landing')
 
-router.get('/', landingController)
+router.get('/', landing)
 
 /* Exporting Router */
 module.exports = router
