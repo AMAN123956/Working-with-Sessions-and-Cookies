@@ -5,7 +5,7 @@ const session = require('express-session')
 const MongoDbStore = require('connect-mongodb-session')
 
 // Constant Variables
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 5000
 // Initializing Express App
 const app = express()
 // Configuring Session(Initializing Session)
